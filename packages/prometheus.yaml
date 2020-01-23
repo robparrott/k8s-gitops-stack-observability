@@ -14,6 +14,7 @@ spec:
     path: modules
   destination:
     server: https://kubernetes.default.svc
+    namespace: argocd
   directory:
     recurse: true
   # Sync policy
