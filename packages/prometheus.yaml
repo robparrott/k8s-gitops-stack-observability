@@ -9,14 +9,14 @@ metadata:
 spec:
   project: default
   source:
+    directory:
+      recurse: true
     repoURL: https://github.com/aetna-digital-infrastructure/dfp-gitops-stack-prometheus.git
     targetRevision: HEAD
     path: modules
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
-  directory:
-    recurse: true
   # Sync policy
   syncPolicy:
     automated:
