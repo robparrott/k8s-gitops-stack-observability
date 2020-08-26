@@ -10,7 +10,7 @@ spec:
   source:
     directory:
       recurse: true
-    repoURL: https://github.com/aetna-digital-infrastructure/dfp-gitops-package-grafana.git
+    repoURL: https://github.com/robparrott/k8s-gitops-package-grafana.git
     targetRevision: HEAD
     path: modules
   destination:
